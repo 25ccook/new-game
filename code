@@ -1,0 +1,96 @@
+onEvent("button1", "click", function( ) {
+  setScreen("music");
+});
+onEvent("button2", "click", function( ) {
+  setScreen("homescreen");
+});
+onEvent("button3", "click", function( ) {
+  setScreen("undertale");
+});
+onEvent("button5", "click", function( ) {
+  setScreen("music");
+});
+onEvent("button4", "click", function( ) {
+  setScreen("ComingSoon");
+});
+onEvent("button7", "click", function( ) {
+  setScreen("music");
+});
+onEvent("song1", "click", function( ) {
+  playSound("Undertale-OST--001---Once-Upon-A-Time.mp3", true);
+});
+onEvent("song2", "click", function( ) {
+  playSound("Undertale-OST--010---Ghost-Fight.mp3", true);
+});
+onEvent("song3", "click", function( ) {
+  playSound("Undertale-OST--015---sans..mp3", true);
+});
+onEvent("song4", "click", function( ) {
+  playSound("Undertale-OST--016---Nyeh-Heh-Heh!.mp3", true);
+});
+onEvent("song5", "click", function( ) {
+  playSound("Undertale-OST--024---Bonetrousle.mp3", true);
+});
+onEvent("song6", "click", function( ) {
+  playSound("Undertale-OST--036---Dummy!.mp3", true);
+});
+onEvent("song7", "click", function( ) {
+  playSound("Undertale-OST--043---Temmie-Village.mp3", true);
+});
+onEvent("song8", "click", function( ) {
+  playSound("Undertale-OST--045---NGAHHH!!.mp3", true);
+});
+onEvent("song9", "click", function( ) {
+  playSound("Undertale-OST--046---Spear-of-Justice.mp3", true);
+});
+onEvent("song10", "click", function( ) {
+  playSound("Undertale-OST--048---Alphys.mp3", true);
+});
+onEvent("song11", "click", function( ) {
+  playSound("Undertale-OST--050---Metal-Crusher.mp3");
+});
+onEvent("song12", "click", function( ) {
+  playSound("Undertale-OST--051---Another-Medium.mp3", true);
+});
+onEvent("song13", "click", function( ) {
+  playSound("Undertale-OST--052---Uwa!!-So-HEATS!!-.mp3", true);
+});
+onEvent("buttonsong14", "click", function( ) {
+  playSound("Undertale-OST--059---Spider-Dance.mp3", true);
+});
+onEvent("song15", "click", function( ) {
+  playSound("Undertale-OST--072---Song-That-Might-Play-When-You-Fight-Sans.mp3", true);
+});
+onEvent("song16", "click", function( ) {
+  playSound("Undertale-OST--084---Amalgam.mp3", true);
+});
+onEvent("song17", "click", function( ) {
+  playSound("Undertale-OST--085---Fallen-Down-(Reprise).mp3", true);
+});
+onEvent("song18", "click", function( ) {
+  playSound("Undertale-OST--044---Tem-Shop-(1).mp3", true);
+});
+onEvent("megalovania", "click", function( ) {
+  playSound("MEGALOVANIA.mp3", true);
+});
+onEvent("STOP", "click", function( ) {
+  stopSound("MEGALOVANIA.mp3");
+  stopSound("Undertale-OST--001---Once-Upon-A-Time.mp3");
+  stopSound("Undertale-OST--010---Ghost-Fight.mp3");
+  stopSound("Undertale-OST--015---sans..mp3");
+  stopSound("Undertale-OST--016---Nyeh-Heh-Heh!.mp3");
+  stopSound("Undertale-OST--024---Bonetrousle.mp3");
+  stopSound("Undertale-OST--036---Dummy!.mp3");
+  stopSound("Undertale-OST--043---Temmie-Village.mp3");
+  stopSound("Undertale-OST--044---Tem-Shop-(1).mp3");
+  stopSound("Undertale-OST--045---NGAHHH!!.mp3");
+  stopSound("Undertale-OST--046---Spear-of-Justice.mp3");
+  stopSound("Undertale-OST--048---Alphys.mp3");
+  stopSound("Undertale-OST--050---Metal-Crusher.mp3");
+  stopSound("Undertale-OST--051---Another-Medium.mp3");
+  stopSound("Undertale-OST--052---Uwa!!-So-HEATS!!-.mp3");
+  stopSound("Undertale-OST--059---Spider-Dance.mp3");
+  stopSound("Undertale-OST--072---Song-That-Might-Play-When-You-Fight-Sans.mp3");
+  stopSound("Undertale-OST--085---Fallen-Down-(Reprise).mp3");
+  stopSound("Undertale-OST--084---Amalgam.mp3");
+});
